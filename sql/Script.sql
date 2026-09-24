@@ -1,3 +1,4 @@
+-- Отток по сегментам клиентов
 SELECT
   customer_segment AS сегмент,
   COUNT(*) AS всего,
@@ -6,7 +7,7 @@ SELECT
 FROM bank_churn
 GROUP BY customer_segment
 ORDER BY процент_оттока DESC;
-
+-- Отток по лояльности
 SELECT
   loyalty_level AS уровень,
   COUNT(*) AS всего,
