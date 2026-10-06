@@ -40,7 +40,7 @@
 - Мониторить `engagement_score`: падение ниже 20 — ранний сигнал риска
 - Использовать модель для скоринга: топ-20% по churn probability — приоритетная группа
 
-##Стек
+## Стек
 
 Python, pandas, PostgreSQL, scipy, statsmodels, scikit-learn, matplotlib, seaborn
 
