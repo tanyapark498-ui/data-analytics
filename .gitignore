@@ -1,4 +1,7 @@
-.ipynb_checkpoints/
-*.pyc
-data/raw/*.csv
 venv/
+*.pyc
+.ipynb_checkpoints/
+data/raw/*.csv
+data/*.db
+.env
+.DS_Store
